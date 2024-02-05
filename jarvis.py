@@ -3,6 +3,8 @@ import subprocess
 import speech_recognition as sr
 import pyttsx3
 import webbrowser
+import pyttsx3
+import objc
 
 def listen():
     recognizer = sr.Recognizer()
@@ -59,6 +61,8 @@ def open_website(command):
         "hdfc bank": "https://www.hdfcbank.com",
         "sbi anywhere": "https://www.onlinesbi.com",
         "icici bank": "https://www.icicibank.com",
+        "aniwatch": "https://aniwatch.me",
+        "zoro": "https://zoro.to",
         # Add more websites as needed
     }
 
